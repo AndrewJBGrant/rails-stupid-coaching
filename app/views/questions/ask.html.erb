@@ -1,6 +1,10 @@
-<h1>Stupid coaching 🚀</h1>
-
-<form action="answer" method="get" data-turbo="false">
-  <input type="text" name="question" value="<%= params[:question] %>">
-  <input type="submit" value="Ask!">
-</form>
+<div class="container">
+  <h1>Stupid coaching 🚀</h1>
+    <p class="subheader">Ask your coach anything:</p>
+  <form class="form" action="/answer" method="get">
+  <div class="input-button">
+        <input class="input" type="text" name="question">
+        <input class="btn btn-primary"  type="submit" value="Ask">
+    </div>
+  </form>
+  </div>
